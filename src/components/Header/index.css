@@ -1,0 +1,15 @@
+header {
+    padding: 10px calc(50% - 496px);
+    background-color: white;
+    font-weight: bold;
+    color: rgb(47, 149, 245);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+header img {
+    width: 15%;
+    padding: 10px 0 10px 0px;
+}

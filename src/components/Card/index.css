@@ -1,0 +1,19 @@
+.card {
+    padding: 18px;
+    display: grid;
+    gap: 10px;
+}
+
+.card__title {
+    font-size: bold;
+    color: rgb(47, 149, 245);
+}
+
+.card__img {
+    height: 120px;
+    background-color: lightslategray;
+}
+
+.card__teg {
+    color: black;
+}
