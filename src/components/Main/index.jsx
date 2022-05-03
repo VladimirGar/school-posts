@@ -1,15 +1,17 @@
-// import React from "react";
-// import "./index.css";
-// import Card from "../Card";
-// import data from "../../data.json"; 
+import React from "react";
+import "./index.css";
+import Card from "../Card";
+import data from "../../data.json"; 
 
-// const Main = () => {
-//     <main>
-//         <div className="card-container">{data.map(el => <Card text={el.name} key={el.id} pic={el.picture} price={el.price}/>)}
-//         </div>
+const Main = () => {
+    return (
+    <main>
+        <div className="cards-container">{data.map(el => <Card text={el.name} key={el.id} pic={el.picture} price={el.price}/>)}
+        </div>
         
-//     </main>
-// }
+    </main>
+    )
+}
 
-// export default Main;
+export default Main;
 
