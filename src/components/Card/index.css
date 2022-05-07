@@ -1,13 +1,16 @@
 .card {
-    padding: 18px;
+    padding: 10px;
     display: grid;
-    gap: 10px;
+    gap: 30px;
     cursor: pointer;
     font-size: bold;
     color: rgb(47, 149, 245);
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 5px;
 }
 
-.card__price {
+.card__userName {
     font-size: bold;
     color: rgb(47, 149, 245);
 }
