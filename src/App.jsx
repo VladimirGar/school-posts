@@ -18,16 +18,16 @@ const App = () => {
     return (
         <div className="container">
             <Header/>
-            <Routes>
+            {/* <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/posts" element={<Posts/>}/>
                 <Route path="/reg" element={<Reg/>}/>
-            </Routes>
+            </Routes> */}
             {/* <Card/> */}
             {/* {dataCards} */}
             {/* <Logo/> */}
             {/* <h1>Руддщghjf</h1>  */}
-            {/* <Main/> */}
+            <Main/>
             <Footer/>
         </div>
     )

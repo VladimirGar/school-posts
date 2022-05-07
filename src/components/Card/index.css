@@ -3,6 +3,8 @@
     display: grid;
     gap: 10px;
     cursor: pointer;
+    font-size: bold;
+    color: rgb(47, 149, 245);
 }
 
 .card__price {
