@@ -10,12 +10,14 @@ import Signup from "../../pages/Signup";
 
 
 
+
 const Main = () => {
     return (
     <main>
         <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/posts" element={<Posts/>}/>
+            {/* <Route path="/posts" element={<Posts/>}/> */}
+            <Route path="/posts/:id" element={<Posts/>}></Route>
             <Route path="/reg" element={<Reg/>}/>
 
             <Route path="/profile" element={<Profile/>}/>

@@ -6,4 +6,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
+    border: 2px solid rgb(47, 149, 245);
+    border-radius: 12px;
+    margin-top: 15px;
 }

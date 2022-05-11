@@ -3,23 +3,38 @@
     display: grid;
     gap: 30px;
     cursor: pointer;
-    font-size: bold;
+    font-size: none;
     color: rgb(47, 149, 245);
     display: inline-block;
     vertical-align: middle;
     margin: 10px 5px;
 }
 
-.card__userName {
-    font-size: bold;
+.card__userName, .card__about, .card__tags, .card__email{
+    font-size: bolder;
     color: rgb(47, 149, 245);
+    margin-bottom: 8px;
 }
 
 .card__img {
     height: 120px;
     background-color: lightslategray;
+    margin-bottom: 8px;
 }
 
 /* .card__teg {
     color: black;
 } */
+
+.createButton {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+    border: 2px solid  rgb(47, 149, 245);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: bold;
+    color: rgb(47, 149, 245);
+    cursor: pointer;
+}
